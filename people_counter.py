@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        people_counter
+# Name:        people_counter.py
 # Purpose:
 #
 # Author:      TARSIER
