@@ -69,11 +69,13 @@ def main():
     width = 800
     textIn = 0
     textOut = 0
-
+	
+	# This lines in initializing camera is for testing/debugging purpose only
     camera = cv2.VideoCapture("people_counter.mp4")
     #camera = cv2.VideoCapture("people_walk.mp4")
     #camera = cv2.VideoCapture("TownCentreXVID.mp4")
-
+	
+	# Uncomment this line if using Video Camera
     #camera = cv2.VideoCapture(0)
 
     firstFrame = None
